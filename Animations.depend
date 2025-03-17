@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1741971828 source:e:\test_code\animations\main.cpp
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	"graphics.h"
+	"def.h"
+
+1741967953 e:\test_code\animations\graphics.h
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	"def.h"
+	<vector>
+
+1741971063 e:\test_code\animations\def.h
+

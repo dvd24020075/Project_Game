@@ -1,5 +1,15 @@
 # depslib dependency file v1.0
-1740195124 source:e:\testcode\demosdl2\main.cpp
+1741942800 source:e:\testcode\demosdl2\main.cpp
 	<iostream>
 	<SDL.h>
+	<SDL_image.h>
+	"def.h"
+	"graphics.h"
+
+1741942874 e:\testcode\demosdl2\def.h
+
+1741942800 e:\testcode\demosdl2\graphics.h
+	<SDL.h>
+	<SDL_image.h>
+	"def.h"
 
