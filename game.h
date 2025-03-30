@@ -1,13 +1,13 @@
 #ifndef GAME_H
 #define GAME_H
 
-#define INITIAL_SPEED 3
 #include "graphics.h"
+#include "def.h"
 
 struct Mouse {
     int x, y;
     int dx = 0, dy = 0;
-    int speed = INITIAL_SPEED;
+    int speed = 3; // INITIAL_SPEED
     void move() {
         x += dx;
         y += dy;
@@ -46,4 +46,3 @@ bool gameOver(const Mouse& mouse) {
 }
 
 #endif // GAME_H
-

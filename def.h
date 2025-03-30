@@ -1,14 +1,16 @@
-#ifndef _DEF__H
-#define _DEF__H
+#ifndef DEF_H
+#define DEF_H
 #define BACKGROUND_IMG "img\\forest.jpg"
 
-const int SCREEN_WIDTH = 800;
-const int SCREEN_HEIGHT = 600;
-const char* WINDOW_TITLE = "Hello World!";
+constexpr int SCREEN_WIDTH = 800;
+constexpr int SCREEN_HEIGHT = 600;
+constexpr const char* WINDOW_TITLE = "Hello World!";
 
-const char*  BIRD_SPRITE_FILE = "img\\83127-sprite-area-line-animated-bird-film.png";
-//const char*  BIRD_SPRITE_FILE = "img\\21861321.jpg";
-const int BIRD_CLIPS[][4] = {
+constexpr const char* BIRD_SPRITE_FILE = "img\\83127-sprite-area-line-animated-bird-film.png";
+constexpr float COLLISION_THRESHOLD = 50.0f;
+
+// Mảng clip của chim
+constexpr int BIRD_CLIPS[][4] = {
     {0, 0, 182, 168},
     {181, 0, 182, 168},
     {364, 0, 182, 168},
@@ -26,6 +28,6 @@ const int BIRD_CLIPS[][4] = {
     {364, 340, 182, 168},
     {547, 340, 182, 168},
 };
-const int BIRD_FRAMES = sizeof(BIRD_CLIPS)/sizeof(int)/4;
+constexpr int BIRD_FRAMES = sizeof(BIRD_CLIPS) / sizeof(BIRD_CLIPS[0]);
 
-#endif
+#endif // DEF_H

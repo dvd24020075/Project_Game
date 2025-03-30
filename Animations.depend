@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1741971828 source:e:\test_code\animations\main.cpp
+1742222973 source:e:\test_code\animations\main.cpp
 	<iostream>
 	<SDL.h>
 	<SDL_image.h>
@@ -14,5 +14,46 @@
 	"def.h"
 	<vector>
 
-1741971063 e:\test_code\animations\def.h
+1742223337 e:\test_code\animations\def.h
+
+1742216093 source:e:\test_code\animations\bird.cpp
+	"bird.h"
+
+1742216093 e:\test_code\animations\bird.h
+	<SDL.h>
+	"graphics.h"
+
+1742216093 source:e:\test_code\animations\collision.cpp
+	"collision.h"
+
+1742216093 e:\test_code\animations\collision.h
+	<SDL.h>
+
+1742216093 e:\test_code\animations\pipe.h
+	<SDL.h>
+	"graphics.h"
+
+1742216093 source:e:\test_code\animations\pipe.cpp
+	"pipe.h"
+
+1742227132 source:e:\test_code\animations - copy\main.cpp
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	"graphics.h"
+	"def.h"
+	"game.h"
+
+1742227236 e:\test_code\animations - copy\graphics.h
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	"def.h"
+	<vector>
+
+1742227236 e:\test_code\animations - copy\def.h
+
+1742227260 e:\test_code\animations - copy\game.h
+	"graphics.h"
 
